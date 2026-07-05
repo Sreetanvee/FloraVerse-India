@@ -1,0 +1,363 @@
+[
+  {
+    "id": "lotus",
+    "name": "Lotus",
+    "scientificName": "Nelumbo nucifera",
+    "family": "Nelumbonaceae",
+    "state": "National Flower of India",
+    "bloomingSeason": "Summer",
+    "habitat": "Ponds and lakes",
+    "medicinalUses": "Used in Ayurveda for skin, digestion and heart health.",
+    "symbolism": "Purity, Enlightenment",
+    "description": "The Lotus is the national flower of India. It blooms beautifully above muddy waters and symbolizes purity, spirituality and resilience.",
+    "image": "images/lotus.jpg",
+    "facts": [
+      "National flower of India.",
+      "Sacred in Hinduism and Buddhism.",
+      "Its leaves repel water naturally."
+    ]
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "scientificName": "Rosa indica",
+    "family": "Rosaceae",
+    "state": "Across India",
+    "bloomingSeason": "Winter & Spring",
+    "habitat": "Gardens",
+    "medicinalUses": "Rose water, perfumes and skincare.",
+    "symbolism": "Love and Beauty",
+    "description": "Roses are among the most loved flowers in India and are widely used in celebrations, perfumes and decorations.",
+    "image": "images/rose.jpg",
+    "facts": [
+      "Over 300 species exist worldwide.",
+      "Rose petals are edible.",
+      "Used in perfumes."
+    ]
+  },
+  {
+    "id": "hibiscus",
+    "name": "Hibiscus",
+    "scientificName": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae",
+    "state": "Kerala",
+    "bloomingSeason": "Year-round",
+    "habitat": "Gardens",
+    "medicinalUses": "Used for hair care and herbal tea.",
+    "symbolism": "Beauty and Devotion",
+    "description": "Hibiscus is a colorful tropical flower commonly used in temples and traditional medicine.",
+    "image": "images/hibiscus.jpg",
+    "facts": [
+      "Popular in South India.",
+      "Used in hair oils.",
+      "Attracts butterflies."
+    ]
+  },
+  {
+    "id": "marigold",
+    "name": "Marigold",
+    "scientificName": "Tagetes erecta",
+    "family": "Asteraceae",
+    "state": "Across India",
+    "bloomingSeason": "Autumn",
+    "habitat": "Gardens",
+    "medicinalUses": "Traditional skin remedies.",
+    "symbolism": "Prosperity and Positivity",
+    "description": "Marigolds are widely used during Indian festivals, weddings and temple decorations.",
+    "image": "images/marigold.jpg",
+    "facts": [
+      "Popular during Diwali.",
+      "Easy to grow.",
+      "Bright yellow and orange flowers."
+    ]
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "scientificName": "Jasminum sambac",
+    "family": "Oleaceae",
+    "state": "Tamil Nadu",
+    "bloomingSeason": "Summer",
+    "habitat": "Gardens",
+    "medicinalUses": "Used in aromatherapy.",
+    "symbolism": "Purity",
+    "description": "Jasmine is famous for its sweet fragrance and is commonly used in garlands.",
+    "image": "images/jasmine.jpg",
+    "facts": [
+      "Highly fragrant.",
+      "Used in perfumes.",
+      "Popular in South India."
+    ]
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "family": "Asteraceae",
+    "state": "Karnataka",
+    "bloomingSeason": "Summer",
+    "habitat": "Fields",
+    "medicinalUses": "Nutritious edible seeds.",
+    "symbolism": "Hope and Happiness",
+    "description": "Sunflowers are known for turning towards the sun while growing.",
+    "image": "images/sunflower.jpg",
+    "facts": [
+      "Produces edible seeds.",
+      "Can grow very tall.",
+      "Symbol of positivity."
+    ]
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "scientificName": "Lilium",
+    "family": "Liliaceae",
+    "state": "Himachal Pradesh",
+    "bloomingSeason": "Spring",
+    "habitat": "Gardens and hills",
+    "medicinalUses": "Traditional herbal uses.",
+    "symbolism": "Peace and Purity",
+    "description": "Lilies are elegant flowers admired for their fragrance and graceful appearance.",
+    "image": "images/lily.jpg",
+    "facts": [
+      "Many colorful varieties.",
+      "Popular ornamental flower.",
+      "Sweet fragrance."
+    ]
+  },
+  {
+    "id": "periwinkle",
+    "name": "Periwinkle",
+    "scientificName": "Catharanthus roseus",
+    "family": "Apocynaceae",
+    "state": "Tamil Nadu",
+    "bloomingSeason": "Year-round",
+    "habitat": "Gardens",
+    "medicinalUses": "Used in anti-cancer medicines.",
+    "symbolism": "Friendship",
+    "description": "Periwinkle is a medicinal flowering plant known for its beautiful pink blooms.",
+    "image": "images/periwinkle.jpg",
+    "facts": [
+      "Source of important medicines.",
+      "Easy to grow.",
+      "Blooms throughout the year."
+    ]
+  },
+  {
+    "id": "oleander",
+    "name": "Oleander",
+    "scientificName": "Nerium oleander",
+    "family": "Apocynaceae",
+    "state": "Across India",
+    "bloomingSeason": "Spring",
+    "habitat": "Roadsides and gardens",
+    "medicinalUses": "Used only in controlled traditional medicine.",
+    "symbolism": "Strength",
+    "description": "Oleander is an evergreen flowering shrub with vibrant blossoms.",
+    "image": "images/oleander.jpg",
+    "facts": [
+      "Drought tolerant.",
+      "Highly ornamental.",
+      "Plant parts are toxic if ingested."
+    ]
+  },
+  {
+    "id": "champak",
+    "name": "Champak",
+    "scientificName": "Magnolia champaca",
+    "family": "Magnoliaceae",
+    "state": "Northeast India",
+    "bloomingSeason": "Summer",
+    "habitat": "Forests",
+    "medicinalUses": "Used in Ayurveda and perfumes.",
+    "symbolism": "Joy and Spirituality",
+    "description": "Champak is famous for its intensely fragrant golden-yellow flowers.",
+    "image": "images/champak.jpg",
+    "facts": [
+      "Very fragrant flower.",
+      "Used in temple offerings.",
+      "Popular in perfumes."
+    ]
+  },
+{
+    "id": "golden_shower",
+    "name": "Golden Shower",
+    "scientificName": "Cassia fistula",
+    "family": "Fabaceae",
+    "state": "Kerala",
+    "bloomingSeason": "Summer",
+    "habitat": "Forests and roadsides",
+    "medicinalUses": "Used in Ayurveda for digestive disorders.",
+    "symbolism": "Prosperity and Good Fortune",
+    "description": "Golden Shower is the state flower of Kerala and is admired for its bright yellow cascading flowers.",
+    "image": "images/golden_shower.jpg",
+    "facts": [
+        "State flower of Kerala.",
+        "Blooms during Vishu festival.",
+        "Also called Indian Laburnum."
+    ]
+},
+{
+    "id": "tangedu",
+    "name": "Tangedu",
+    "scientificName": "Senna auriculata",
+    "family": "Fabaceae",
+    "state": "Telangana",
+    "bloomingSeason": "Monsoon",
+    "habitat": "Dry forests and scrublands",
+    "medicinalUses": "Used in Ayurveda for diabetes and skin care.",
+    "symbolism": "Culture and Celebration",
+    "description": "Tangedu flowers are an important part of Telangana's Bathukamma festival.",
+    "image": "images/tangedu.jpg",
+    "facts": [
+        "Famous during Bathukamma festival.",
+        "Bright yellow flowers.",
+        "Native to South India."
+    ]
+},
+{
+    "id": "blue_water_lily",
+    "name": "Blue Water Lily",
+    "scientificName": "Nymphaea nouchali",
+    "family": "Nymphaeaceae",
+    "state": "Across India",
+    "bloomingSeason": "Summer",
+    "habitat": "Lakes and ponds",
+    "medicinalUses": "Used in traditional medicine.",
+    "symbolism": "Peace and Serenity",
+    "description": "A beautiful aquatic flower often found floating on calm water bodies.",
+    "image": "images/blue_water_lily.jpg",
+    "facts": [
+        "Aquatic flowering plant.",
+        "Blue-violet petals.",
+        "Often confused with Lotus."
+    ]
+},
+{
+    "id": "frangipani",
+    "name": "Frangipani",
+    "scientificName": "Plumeria rubra",
+    "family": "Apocynaceae",
+    "state": "Goa",
+    "bloomingSeason": "Summer",
+    "habitat": "Gardens",
+    "medicinalUses": "Used in perfumes and traditional remedies.",
+    "symbolism": "New Beginnings",
+    "description": "Frangipani is loved for its attractive flowers and pleasant fragrance.",
+    "image": "images/frangipani.jpg",
+    "facts": [
+        "Common in temples.",
+        "Very fragrant.",
+        "Popular ornamental tree."
+    ]
+},
+{
+    "id": "bougainvillea",
+    "name": "Bougainvillea",
+    "scientificName": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "state": "Across India",
+    "bloomingSeason": "Year-round",
+    "habitat": "Gardens and roadsides",
+    "medicinalUses": "Traditional medicinal uses.",
+    "symbolism": "Passion",
+    "description": "Bougainvillea is famous for its vibrant colorful bracts that brighten landscapes.",
+    "image": "images/bougainvillea.jpg",
+    "facts": [
+        "Available in many colors.",
+        "Drought resistant.",
+        "Excellent climbing plant."
+    ]
+},
+{
+    "id": "orchid",
+    "name": "Orchid",
+    "scientificName": "Orchidaceae",
+    "family": "Orchidaceae",
+    "state": "Sikkim",
+    "bloomingSeason": "Spring",
+    "habitat": "Forests",
+    "medicinalUses": "Used in traditional herbal medicine.",
+    "symbolism": "Luxury and Elegance",
+    "description": "Orchids are among the most diverse and beautiful flowering plants.",
+    "image": "images/orchid.jpg",
+    "facts": [
+        "Thousands of species exist.",
+        "Many are epiphytes.",
+        "Abundant in Northeast India."
+    ]
+},
+{
+    "id": "ixora",
+    "name": "Ixora",
+    "scientificName": "Ixora coccinea",
+    "family": "Rubiaceae",
+    "state": "Kerala",
+    "bloomingSeason": "Year-round",
+    "habitat": "Gardens",
+    "medicinalUses": "Used in Ayurveda for wounds and fever.",
+    "symbolism": "Devotion",
+    "description": "Ixora produces dense clusters of bright red, orange, yellow or pink flowers.",
+    "image": "images/ixora.jpg",
+    "facts": [
+        "Attracts butterflies.",
+        "Evergreen shrub.",
+        "Popular garden plant."
+    ]
+},
+{
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "scientificName": "Chrysanthemum indicum",
+    "family": "Asteraceae",
+    "state": "Across India",
+    "bloomingSeason": "Winter",
+    "habitat": "Gardens",
+    "medicinalUses": "Used in herbal tea and medicine.",
+    "symbolism": "Happiness and Longevity",
+    "description": "A colorful flowering plant commonly grown in Indian gardens.",
+    "image": "images/chrysanthemum.jpg",
+    "facts": [
+        "Many colorful varieties.",
+        "Popular winter flower.",
+        "Long-lasting blooms."
+    ]
+},
+{
+    "id": "aparajita",
+    "name": "Aparajita",
+    "scientificName": "Clitoria ternatea",
+    "family": "Fabaceae",
+    "state": "Across India",
+    "bloomingSeason": "Monsoon",
+    "habitat": "Gardens and hedges",
+    "medicinalUses": "Used in Ayurveda for memory and brain health.",
+    "symbolism": "Victory",
+    "description": "Aparajita is a beautiful blue flowering vine widely used in worship and herbal medicine.",
+    "image": "images/aparajita.jpg",
+    "facts": [
+        "Naturally blue flowers.",
+        "Used to make blue herbal tea.",
+        "Sacred in Hindu rituals."
+    ]
+},
+{
+    "id": "night_blooming_jasmine",
+    "name": "Night Blooming Jasmine",
+    "scientificName": "Nyctanthes arbor-tristis",
+    "family": "Oleaceae",
+    "state": "Uttar Pradesh",
+    "bloomingSeason": "Autumn",
+    "habitat": "Gardens and forests",
+    "medicinalUses": "Used in Ayurveda for fever and arthritis.",
+    "symbolism": "Hope and Spirituality",
+    "description": "Night Blooming Jasmine blooms after sunset and sheds its fragrant flowers by morning.",
+    "image": "images/night_blooming_jasmine.jpg",
+    "facts": [
+        "Blooms only at night.",
+        "Also called Parijat.",
+        "Extremely fragrant flowers."
+    ]
+}
+]
+   

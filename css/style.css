@@ -1,0 +1,604 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8faf7;
+    color:#2d3436;
+    overflow-x:hidden;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    z-index:1000;
+
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    transition:.4s;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:white;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+
+    color:#ffe082;
+
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+
+    width:100%;
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1600&q=80");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+
+}
+
+.overlay{
+
+    width:90%;
+    max-width:900px;
+
+}
+
+.hero h1{
+
+    font-size:65px;
+    margin-bottom:20px;
+    line-height:1.2;
+
+}
+
+.hero p{
+
+    font-size:20px;
+    margin-bottom:35px;
+    color:#eeeeee;
+
+}
+
+/* =========================
+   SEARCH
+========================= */
+
+.search-box{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.search-box input{
+
+    width:520px;
+    max-width:90%;
+
+    padding:18px 22px;
+
+    border:none;
+    border-radius:50px;
+
+    font-size:17px;
+
+    outline:none;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+}
+
+.search-box button{
+
+    padding:18px 30px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#5A8F7B;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.search-box button:hover{
+
+    background:#477361;
+
+    transform:translateY(-2px);
+
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+    font-size:42px;
+
+    color:#355d4f;
+
+    margin-bottom:10px;
+
+}
+
+.section-title p{
+
+    color:#777;
+
+    font-size:18px;
+
+}
+
+/* =========================
+   FLOWER SECTION
+========================= */
+
+#flowers{
+
+    padding:90px 8%;
+
+}
+/* =========================
+   PINTEREST FLOWER GRID
+========================= */
+
+.masonry{
+
+    column-count:4;
+    column-gap:22px;
+
+}
+
+@media(max-width:1200px){
+
+    .masonry{
+
+        column-count:3;
+
+    }
+
+}
+
+@media(max-width:850px){
+
+    .masonry{
+
+        column-count:2;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .masonry{
+
+        column-count:1;
+
+    }
+
+}
+
+/* =========================
+   FLOWER CARD
+========================= */
+
+.flower-card{
+
+    display:inline-block;
+
+    width:100%;
+
+    margin-bottom:22px;
+
+    background:white;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    break-inside:avoid;
+
+}
+
+.flower-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+.flower-card img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.flower-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.card-content{
+
+    padding:22px;
+
+}
+
+.card-content h3{
+
+    color:#355d4f;
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.scientific{
+
+    color:#5A8F7B;
+
+    font-style:italic;
+
+    font-size:15px;
+
+    margin-bottom:14px;
+
+}
+
+.description{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+/* =========================
+   READ MORE BUTTON
+========================= */
+
+.read-btn{
+
+    border:none;
+
+    padding:12px 24px;
+
+    background:#5A8F7B;
+
+    color:white;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.read-btn:hover{
+
+    background:#3d6d5b;
+
+    transform:translateY(-2px);
+
+}
+
+/* =========================
+   NO RESULT
+========================= */
+
+.no-result{
+
+    text-align:center;
+
+    color:#666;
+
+    padding:60px;
+
+    font-size:28px;
+
+}
+
+.error{
+
+    text-align:center;
+
+    color:#d32f2f;
+
+    padding:60px;
+
+    font-size:28px;
+
+}
+/* =========================
+   PINTEREST FLOWER GRID
+========================= */
+
+.masonry{
+
+    column-count:4;
+    column-gap:22px;
+
+}
+
+@media(max-width:1200px){
+
+    .masonry{
+
+        column-count:3;
+
+    }
+
+}
+
+@media(max-width:850px){
+
+    .masonry{
+
+        column-count:2;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .masonry{
+
+        column-count:1;
+
+    }
+
+}
+
+/* =========================
+   FLOWER CARD
+========================= */
+
+.flower-card{
+
+    display:inline-block;
+
+    width:100%;
+
+    margin-bottom:22px;
+
+    background:white;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    break-inside:avoid;
+
+}
+
+.flower-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+}
+
+.flower-card img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.flower-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.card-content{
+
+    padding:22px;
+
+}
+
+.card-content h3{
+
+    color:#355d4f;
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.scientific{
+
+    color:#5A8F7B;
+
+    font-style:italic;
+
+    font-size:15px;
+
+    margin-bottom:14px;
+
+}
+
+.description{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+/* =========================
+   READ MORE BUTTON
+========================= */
+
+.read-btn{
+
+    border:none;
+
+    padding:12px 24px;
+
+    background:#5A8F7B;
+
+    color:white;
+
+    border-radius:40px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.read-btn:hover{
+
+    background:#3d6d5b;
+
+    transform:translateY(-2px);
+
+}
+
+/* =========================
+   NO RESULT
+========================= */
+
+.no-result{
+
+    text-align:center;
+
+    color:#666;
+
+    padding:60px;
+
+    font-size:28px;
+
+}
+
+.error{
+
+    text-align:center;
+
+    color:#d32f2f;
+
+    padding:60px;
+
+    font-size:28px;
+
+}
